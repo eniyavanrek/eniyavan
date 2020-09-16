@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-boxe;
+}
+  .container
+  {
+      width: 100%;
+      height:100vh;
+      background-image: url(../eniyavan/img/e.jpg) ;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      box-sizing: border-box;
+      
+  }
+.logo img
+
+{
+ width: 70px;  
+ height:60px;
+ cursor: pointer;
+ position: relative;
+ z-index: 1;
+ left: 0;
+}
+.nave
+{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: rgba(29, 33, 61, .5);
+    padding: 0 60px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.link
+{
+    flex: 1;
+    padding-left: 70px;
+}
+.link ul li{
+    list-style: none;
+    display: inline;
+    margin-right:60px ;
+}
+    .link ul li a{
+     text-decoration: none;
+     color: white;
+    
+     
+ }
+ .link ul li a:hover
+ {
+    color: lightcoral;
+ }
+ .user
+ {
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+     color: lightcoral;
+ }
+
+ .socialmedia
+ {
+  width: 110px;
+  height: 100vh;
+  background: rgba(29, 33, 61, .5);
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  
+ }
+ .socialmedia li{
+     width: 20px;
+     display: block;
+     margin: 80px auto 0;
+     text-align: center;
+     padding-right: 30px;
+    
+ }
+ .socialmedia a
+ {
+     text-decoration: none;
+     color: lightblue;
+     background-color: rgb(62, 61, 61, .32);
+     border-radius: 30px ;
+     
+    }
+    .socialmedia a:hover
+    {
+        color: lightcoral;
+        
+    }
+
+.main
+{
+    width: 600px;
+    height: 280px;
+    position: absolute;
+    left: 17%;
+    top: 28%;
+    transform: translate(-50);
+}
+.msg-contant a
+{
+  text-decoration: none;
+  display: inline-block;
+  color: #555;
+  background: lightblue;
+  font-size: 15px;
+  padding: 10px 35px;
+  border-radius: 30px;
+}
+.msg-contant .heading
+{
+padding-bottom:  30px;
+}
+.msg-contant .heading:hover
+{
+    color: lightblue;
+}
+.msg-contant p
+{
+    padding-bottom: 30px;
+}
